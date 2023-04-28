@@ -1,0 +1,30 @@
+.header {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  border-bottom: 1px solid white;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+.header ul li {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px 0 white;
+}
+
+.btn {
+  padding: 10px;
+  border: 0;
+  background-color: dodgerblue;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
