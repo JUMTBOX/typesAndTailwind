@@ -10,7 +10,7 @@ export default function ChangeColor() {
       divRef.current.style.backgroundColor = inputRef.current.value;
 
       varRef.current = inputRef.current.value;
-      console.log(varRef.current);
+      // console.log(varRef.current);
       inputRef.current.value = "";
     }
   };
