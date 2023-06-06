@@ -1,10 +1,11 @@
 import "./App.css";
-import JoinBtn from "./components/JoinBtn";
+// import JoinBtn from "./components/JoinBtn";
+import Rehab from "./components/Rehab";
 
 function App() {
   return (
     <div className="App" style={{ textAlign: "center" }}>
-      <JoinBtn age={28} />
+      <Rehab />
     </div>
   );
 }
